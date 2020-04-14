@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <meta charset = "utf-8">
+
+
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Bbiblio</title>   
+        <style>
+            body {font-family: Arial, Helvetica, sans-serif;}
+            form {border: 3px solid #f1f1f1;}
+            
+            input[type=email] {
+              width: 100%;
+              padding: 12px 20px;
+              margin: 8px 0;
+              display: inline-block;
+              border: 1px solid #ccc;
+              box-sizing: border-box;
+            }
+            
+            button {
+              background-color: #ff9900;
+              color: white;
+              padding: 14px 20px;
+              margin: 8px 0;
+              border: none;
+              cursor: pointer;
+              width: 100%;
+            }
+            
+            button:hover {
+              opacity: 0.8;
+            }
+            
+            .cancelbtn {
+              width: auto;
+              padding: 10px 18px;
+              background-color: #f44336;
+            }
+            
+     
+            
+            .container {
+              padding: 16px;
+            }
+            
+            span.psw {
+              float: right;
+              padding-top: 16px;
+            }
+            
+     
+            </style>              
+    </head>
+
+
+
+    <body>
+        <script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script  src="monjs.js"></script>             
+        
+
+
+
+        <header>
+            <div class="accueil"> 
+                <a href="index.html">accueil</a>
+            </div>
+
+            <div class="titre">
+                <h1>BBIBLIO</h1>
+            </div>        
+        </header>
+
+        <nav>
+            <ul>
+            <li><a href="reglement.html">Règlement</a></li>
+            <li><a href="historiquedesprix.html">Historique des prix</a></li>
+            <!-- <li><a href="historiquedesgagnants.html">Historique des gagnants</a></li> -->
+            <li><a href="devenirjury.html">Devenir jury</a></li>
+            <li><a href="Devenirauteur.html">Devenir auteur/editeur</a></li>
+            <li><a href="auteurlogin.html">Soumettre son oeuvre</a></li>
+            <li><a href="sidentifier.html">s'identifier</a></li>
+            </ul>
+        </nav>
+
+        <div class="page3">
+            
+            <div class="titrepage">
+                <h2>Vous avez oublie votre mot de pass</h2>
+                <h3>Metter votre adresse mail</h3>
+            </div>
+            <form >
+
+
+                  
+                <div class="container">
+                    <label for="uname"><b>adresse mail</b></label>
+                    <input type="email" placeholder="Enter email" name="uname" required>                          
+                    <button type="submit" onclick="alert('on envoie un mail')">se connecter</button>
+                </div>
+                <div class="container" >
+                    <button type="button" class="cancelbtn">annuler</button>
+
+                  </div>                
+
+
+            </form>
+        </div>
+
+
+        <footer>
+            <p>Bbiblio</p>
+        </footer>
+    </body>
+</html>        

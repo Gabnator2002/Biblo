@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    background-color: #ffffff;
+    width:90%;
+    display : block;
+    margin : auto;
+  }
+
+  header  {
+    display : block;
+    margin : auto;
+    padding: 10px;
+    background-color: #ff9900;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  footer  {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ff9900;
+    border-radius: 10px;
+    
+    text-align: center;
+    color:#ffffff;
+  }  
+
+  .titre h1{
+    text-align: center;  
+    color: #ffffff;   
+  }
+
+.accueil a{
+    color:#ffffff;
+    text-decoration: none;
+}
+.accueil a:hover {
+    color: #606060;    
+  }
+
+nav {
+	padding: 0; margin: 0;
+    text-align: center; /* centrer le texte */
+    font-weight: bold;
+    }
+nav li {
+        display: inline;
+        list-style: none;
+    }
+nav a {
+        display:inline-block;
+        margin: 0 1%;
+        text-decoration: none;
+        color:#000000;
+    }
+  
+nav li a:hover {
+    color: #606060; 
+}
+
+nav li a:active {
+    color: #606060; 
+}
+
+.page{    
+    display:flex;
+    background-color:#ffe0b3; 
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.boite{
+    
+    margin-left:20px;
+    margin-right:20px;
+    width:25%;
+    text-align: center;
+    background-color: #ffebcc;
+    border-radius: 10px;
+    padding-bottom:20px;    
+}
+.boite div{
+    padding:0;
+    margin:0;
+    padding-bottom:10px;    
+    
+}
+
+.boite h5 h4{
+    font-size: 1em;
+    padding-top:5px;
+    margin:0;
+}
+
+.boite h6{
+    font-style: italic;
+    font-weight: normal;
+    padding:10px;
+    margin-left:25px;
+    margin-right:25px;
+    background-color: #fff5e6;
+    border-radius: 10px;
+}
+
+.boite a{
+    font-size: .8em;    
+    text-decoration: none;
+}
+
+.boite a:hover {
+    text-decoration: underline;
+    
+  }
+
+
+.page2{    
+    display:flex;
+    background-color:#ffe0b3; 
+    padding: 2%;
+}
+
+  .titrepage{
+    display : block;
+    margin : auto;    
+
+    width:80%;
+    text-align: left;
+    background-color: #ffebcc;
+    border-radius: 10px;
+}
+
+.titrepage h2{    
+    text-align: center; 
+    text-decoration: underline;
+}
+
+.titrepage p{    
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.page3{    
+    display : inline-block;
+    width:100%;
+    background-color:#ffe0b3; 
+    padding: 2%;
+}
+
+.page4{    
+    
+    width:100%;
+    background-color:#ffe0b3; 
+    padding: 2%;
+}
+
+.montableau {
+    display:flex;
+    margin-left: 5%;
+    border-collapse: collapse;
+    
+
+  }
+  .montableau td, .montableau th {
+    background-color: #ffffff;
+    border: 1px solid #ff9900;
+    font-size: .8em;
+    /* padding: 3px 2px; */
+  }
+  .titretableau{
+    margin-left: 5%;
+    font-weight: normal;
+    font-size: .6em;
+  }
+
+  .tableauhistoriquedesprixs{
+    display:inline-block;
+  }
+
+  aside {
+    width: 25%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #000000;
+    font-style: italic;
+    color: #000000;
+}
+
+aside > p {
+    margin: .5rem;
+}
+
+aside button{
+    width:100%;
+}

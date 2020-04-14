@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<repertoire>
+    <!-- John DOE -->
+    <personne >
+        <nom>DOE</nom>
+        <prenom>John</prenom>
+        <livre>livre1</livre>
+        <resume>kjflencfnez cfhnfhjklq qsknfchklzcn</resume>
+        <categorie>roman francais</categorie>
+    </personne>
+	
+
+</repertoire>
