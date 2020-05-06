@@ -7,50 +7,12 @@
     <head>
         <link rel="stylesheet" href="style.css">
         <title>Bbiblio</title>   
-        <style>
-            body {font-family: Arial, Helvetica, sans-serif;}
-            form {border: 3px solid #f1f1f1;}
-            
-            input[type=text], input[type=password] {
-              width: 100%;
-              padding: 12px 20px;
-              margin: 8px 0;
-              display: inline-block;
-              border: 1px solid #ccc;
-              box-sizing: border-box;
-            }
-            
-            button {
-              background-color: #ff9900;
-              color: white;
-              padding: 14px 20px;
-              margin: 8px 0;
-              border: none;
-              cursor: pointer;
-              width: 100%;
-            }
-            
-            button:hover {
-              opacity: 0.8;
-            }
-            
-            
-            .container {
-              padding: 16px;
-            }
-            
-            span.psw {
-              float: right;
-              padding-top: 16px;
-            }
-            
-
-            </style>        
+          
     </head>
 
 
 
-    <body>
+    <body class="7body">
         <script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script  src="monjs.js"></script>             
         
@@ -85,18 +47,19 @@
                 <h2>Espace jury</h2>
                 
             </div>
-            <form >
+            <form onsubmit="jury_login();">
+<!-- Avec on submit on appel le js pour ouvrir une fenetre quand le formulaire est bon -->              
                 <h3>C'est votre premier connection, changer votre mot de passe</h3>
-
+                <h4>Le mot de passe doit avoir 10 caracteres avec au moins une majuscule, une minuscule et un chiffre</h4>
 
 
                   
                     <div class="container">
                         <label for="psw"><b>Password</b></label>
-                        <input type="password" placeholder="Enter Password" name="psw" required>
+                        <input type="password" id = "m3" placeholder="Enter Password" name="psw" minlength="10" pattern = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$" required>
                   
                       <label for="psw"><b>Password</b></label>
-                      <input type="password" placeholder="Enter Password" name="psw" required>
+                      <input type="password" id = "m4" placeholder="Enter Password" name="psw" minlength="10" pattern = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$" required>
                           
                       <button type="submit" id="juryloginbt">se connecter</button>
 

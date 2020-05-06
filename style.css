@@ -10,7 +10,424 @@
     display : block;
     margin : auto;
   }
-
+   .2body {font-family: Arial, Helvetica, sans-serif;}
+            form {border: 3px solid #f1f1f1;}
+            
+            textarea,input[type=text],input[type=file], input[type=email], input[type=password] {
+              width: 100%;
+              padding: 12px 20px;
+              margin: 8px 0;
+              display: inline-block;
+              border: 1px solid #ccc;
+              box-sizing: border-box;
+            }
+            
+            button {
+              background-color: #ff9900;
+              color: white;
+              padding: 14px 20px;
+              margin: 8px 0;
+              border: none;
+              cursor: pointer;
+              width: 100%;
+            }
+            
+            button:hover {
+              opacity: 0.8;
+            }
+            
+            .cancelbtn {
+              width: auto;
+              padding: 10px 18px;
+              background-color: #f44336;
+            }
+            
+     
+            
+            .container {
+              padding: 16px;
+            }
+            
+            span.psw {
+              float: right;
+              padding-top: 16px;
+            }
+			
+			.10body {font-family: Arial, Helvetica, sans-serif;}
+            form {border: 3px solid #f1f1f1;}
+            
+            input[type=text], input[type=password] {
+              width: 100%;
+              padding: 12px 20px;
+              margin: 8px 0;
+              display: inline-block;
+              border: 1px solid #ccc;
+              box-sizing: border-box;
+            }
+            
+            button {
+              background-color: #ff9900;
+              color: white;
+              padding: 14px 20px;
+              margin: 8px 0;
+              border: none;
+              cursor: pointer;
+              width: 100%;
+            }
+            
+            button:hover {
+              opacity: 0.8;
+            }
+            
+            .cancelbtn {
+              width: auto;
+              padding: 10px 18px;
+              background-color: #f44336;
+            }
+            
+     
+            
+            .container {
+              padding: 16px;
+            }
+            
+            span.psw {
+              float: right;
+              padding-top: 16px;
+            }
+			
+            .9body {font-family: Arial, Helvetica, sans-serif;}
+            form {border: 3px solid #f1f1f1;}
+            
+            input[type=email] {
+              width: 100%;
+              padding: 12px 20px;
+              margin: 8px 0;
+              display: inline-block;
+              border: 1px solid #ccc;
+              box-sizing: border-box;
+            }
+            
+            button {
+              background-color: #ff9900;
+              color: white;
+              padding: 14px 20px;
+              margin: 8px 0;
+              border: none;
+              cursor: pointer;
+              width: 100%;
+            }
+            
+            button:hover {
+              opacity: 0.8;
+            }
+            
+            .cancelbtn {
+              width: auto;
+              padding: 10px 18px;
+              background-color: #f44336;
+            }
+            
+     
+            
+            .container {
+              padding: 16px;
+            }
+            
+            span.psw {
+              float: right;
+              padding-top: 16px;
+            }
+			
+			 .8body {font-family: Arial, Helvetica, sans-serif;}
+            form {border: 3px solid #f1f1f1;}
+            
+            input[type=text], input[type=password] {
+              width: 100%;
+              padding: 12px 20px;
+              margin: 8px 0;
+              display: inline-block;
+              border: 1px solid #ccc;
+              box-sizing: border-box;
+            }
+            
+            button {
+              background-color: #ff9900;
+              color: white;
+              padding: 14px 20px;
+              margin: 8px 0;
+              border: none;
+              cursor: pointer;
+              width: 100%;
+            }
+            
+            button:hover {
+              opacity: 0.8;
+            }
+            
+            .cancelbtn {
+              width: auto;
+              padding: 10px 18px;
+              background-color: #f44336;
+            }
+            
+     
+            
+            .container {
+              padding: 16px;
+            }
+            
+            span.psw {
+              float: right;
+              padding-top: 16px;
+            }
+			
+            .7body {font-family: Arial, Helvetica, sans-serif;}
+            form {border: 3px solid #f1f1f1;}
+            
+            input[type=text], input[type=password] {
+              width: 100%;
+              padding: 12px 20px;
+              margin: 8px 0;
+              display: inline-block;
+              border: 1px solid #ccc;
+              box-sizing: border-box;
+            }
+            
+            button {
+              background-color: #ff9900;
+              color: white;
+              padding: 14px 20px;
+              margin: 8px 0;
+              border: none;
+              cursor: pointer;
+              width: 100%;
+            }
+            
+            button:hover {
+              opacity: 0.8;
+            }
+            
+            
+            .container {
+              padding: 16px;
+            }
+            
+            span.psw {
+              float: right;
+              padding-top: 16px;
+            }
+            
+.6body {font-family: Arial, Helvetica, sans-serif;}
+            form {border: 3px solid #f1f1f1;}
+            
+            input[type=email] {
+              width: 100%;
+              padding: 12px 20px;
+              margin: 8px 0;
+              display: inline-block;
+              border: 1px solid #ccc;
+              box-sizing: border-box;
+            }
+            
+            button {
+              background-color: #ff9900;
+              color: white;
+              padding: 14px 20px;
+              margin: 8px 0;
+              border: none;
+              cursor: pointer;
+              width: 100%;
+            }
+            
+            button:hover {
+              opacity: 0.8;
+            }
+            
+            .cancelbtn {
+              width: auto;
+              padding: 10px 18px;
+              background-color: #f44336;
+            }
+            
+     
+            
+            .container {
+              padding: 16px;
+            }
+            
+            span.psw {
+              float: right;
+              padding-top: 16px;
+            }
+			
+.5body {font-family: Arial, Helvetica, sans-serif;}
+            form {border: 3px solid #f1f1f1;}
+            
+            input[type=text], input[type=password] {
+              width: 100%;
+              padding: 12px 20px;
+              margin: 8px 0;
+              display: inline-block;
+              border: 1px solid #ccc;
+              box-sizing: border-box;
+            }
+            
+            button {
+              background-color: #ff9900;
+              color: white;
+              padding: 14px 20px;
+              margin: 8px 0;
+              border: none;
+              cursor: pointer;
+              width: 100%;
+            }
+            
+            button:hover {
+              opacity: 0.8;
+            }
+            
+            .cancelbtn {
+              width: auto;
+              padding: 10px 18px;
+              background-color: #f44336;
+            }
+            
+     
+            
+            .container {
+              padding: 16px;
+            }
+            
+            span.psw {
+              float: right;
+              padding-top: 16px;
+            }
+			
+.4body {font-family: Arial, Helvetica, sans-serif;}
+            form {border: 3px solid #f1f1f1;}
+            
+            textarea,input[type=text], input[type=email], input[type=password] {
+              width: 100%;
+              padding: 12px 20px;
+              margin: 8px 0;
+              display: inline-block;
+              border: 1px solid #ccc;
+              box-sizing: border-box;
+            }
+            
+            button {
+              background-color: #ff9900;
+              color: white;
+              padding: 14px 20px;
+              margin: 8px 0;
+              border: none;
+              cursor: pointer;
+              width: 100%;
+            }
+            
+            button:hover {
+              opacity: 0.8;
+            }
+            
+            .cancelbtn {
+              width: auto;
+              padding: 10px 18px;
+              background-color: #f44336;
+            }
+            
+     
+            
+            .container {
+              padding: 16px;
+            }
+            
+            span.psw {
+              float: right;
+              padding-top: 16px;
+            }
+			
+			
+ .3body {font-family: Arial, Helvetica, sans-serif;}
+            form {border: 3px solid #f1f1f1;}
+            
+            input[type=text], input[type=password] {
+              width: 100%;
+              padding: 12px 20px;
+              margin: 8px 0;
+              display: inline-block;
+              border: 1px solid #ccc;
+              box-sizing: border-box;
+            }
+            
+            button {
+              background-color: #ff9900;
+              color: white;
+              padding: 14px 20px;
+              margin: 8px 0;
+              border: none;
+              cursor: pointer;
+              width: 100%;
+            }
+            
+            button:hover {
+              opacity: 0.8;
+            }
+            
+            
+            .container {
+              padding: 16px;
+            }
+            
+            span.psw {
+              float: right;
+              padding-top: 16px;
+            }
+			
+			
+  .1body {font-family: Arial, Helvetica, sans-serif;}
+            form {border: 3px solid #f1f1f1;}
+            
+            input[type=text], input[type=email], input[type=password] {
+              width: 100%;
+              padding: 12px 20px;
+              margin: 8px 0;
+              display: inline-block;
+              border: 1px solid #ccc;
+              box-sizing: border-box;
+            }
+            
+            button {
+              background-color: #ff9900;
+              color: white;
+              padding: 14px 20px;
+              margin: 8px 0;
+              border: none;
+              cursor: pointer;
+              width: 100%;
+            }
+            
+            button:hover {
+              opacity: 0.8;
+            }
+            
+            .cancelbtn {
+              width: auto;
+              padding: 10px 18px;
+              background-color: #f44336;
+            }
+            
+     
+            
+            .container {
+              padding: 16px;
+            }
+            
+            span.psw {
+              float: right;
+              padding-top: 16px;
+            }
+			
   header  {
     display : block;
     margin : auto;
@@ -197,4 +614,8 @@ aside > p {
 
 aside button{
     width:100%;
+}
+
+.classvisible{
+  visibility:hidden;
 }

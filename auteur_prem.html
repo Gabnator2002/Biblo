@@ -7,50 +7,12 @@
     <head>
         <link rel="stylesheet" href="style.css">
         <title>Bbiblio</title>   
-        <style>
-            body {font-family: Arial, Helvetica, sans-serif;}
-            form {border: 3px solid #f1f1f1;}
-            
-            input[type=text], input[type=password] {
-              width: 100%;
-              padding: 12px 20px;
-              margin: 8px 0;
-              display: inline-block;
-              border: 1px solid #ccc;
-              box-sizing: border-box;
-            }
-            
-            button {
-              background-color: #ff9900;
-              color: white;
-              padding: 14px 20px;
-              margin: 8px 0;
-              border: none;
-              cursor: pointer;
-              width: 100%;
-            }
-            
-            button:hover {
-              opacity: 0.8;
-            }
-            
-            
-            .container {
-              padding: 16px;
-            }
-            
-            span.psw {
-              float: right;
-              padding-top: 16px;
-            }
-            
-
-            </style>        
+                
     </head>
 
 
 
-    <body>
+    <body class="3body">
         <script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script  src="monjs.js"></script>             
         
@@ -85,7 +47,7 @@
                 <h2>Espace auteur</h2>
                 
             </div>
-            <form >
+            <form onsubmit="auteur_login();">
                 <h3>C'est votre premier connection, changer votre mot de passe</h3>
 
 
@@ -93,10 +55,10 @@
                   
                     <div class="container">
                         <label for="psw"><b>Password</b></label>
-                        <input type="password" placeholder="Enter Password" name="psw" required>
+                        <input type="password" id="m1" placeholder="Enter Password" name="psw" minlength="10" pattern = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$" required>
                   
                       <label for="psw"><b>Password</b></label>
-                      <input type="password" placeholder="Enter Password" name="psw" required>
+                      <input type="password" id="m2" placeholder="Enter Password" name="psw" minlength="10" pattern = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$" required>
                           
                       <button type="submit" id="auteurloginbt">se connecter</button>
 

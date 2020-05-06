@@ -8,57 +8,12 @@
         <link rel="stylesheet" href="style.css">
         <title>Bbiblio</title>   
 
-        <style>
-            body {font-family: Arial, Helvetica, sans-serif;}
-            form {border: 3px solid #f1f1f1;}
-            
-            textarea,input[type=text],input[type=file], input[type=email], input[type=password] {
-              width: 100%;
-              padding: 12px 20px;
-              margin: 8px 0;
-              display: inline-block;
-              border: 1px solid #ccc;
-              box-sizing: border-box;
-            }
-            
-            button {
-              background-color: #ff9900;
-              color: white;
-              padding: 14px 20px;
-              margin: 8px 0;
-              border: none;
-              cursor: pointer;
-              width: 100%;
-            }
-            
-            button:hover {
-              opacity: 0.8;
-            }
-            
-            .cancelbtn {
-              width: auto;
-              padding: 10px 18px;
-              background-color: #f44336;
-            }
-            
-     
-            
-            .container {
-              padding: 16px;
-            }
-            
-            span.psw {
-              float: right;
-              padding-top: 16px;
-            }
-            
-     
-            </style>             
+        
     </head>
 
 
 
-    <body>
+    <body class="2body">
         <script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script  src="monjs.js"></script>             
         
@@ -92,7 +47,7 @@
             <div class="titrepage">
                 <h2>Profil auteur</h2>
             </div>
-            <form id="formulaire" >
+            <form id="formulaire" onsubmit="env_info();" >
 
                   <div class="container">
                     <label for="uname"><b>votre nom</b></label>
@@ -103,7 +58,7 @@
                     <textarea placeholder="Enter Username" name="uname" required></textarea>                     
                     <label for="uname"><b>votre adresse mail</b></label>                    
                     <input type="email" placeholder="Enter email" name="uname" required>                                                                  
-                    <button type="submit" id="enregistrerauteur" onclick="alert('informations mise a jour')">enregistrer</button>
+                    <button type="submit" id="enregistrerauteur" >enregistrer</button>
 
                 </div>                  
 
@@ -114,7 +69,7 @@
             <div class="titrepage">
                 <h2>Soumettre son oeuvre</h2>
             </div>
-            <form id="formulaire" >
+            <form id="formulaire" onsubmit="env_form();">
 
                 <div class="container">
                   <label for="uname"><b>nom de l'oeuvre</b></label>
@@ -142,7 +97,7 @@
                         <br>
                     </div>
 
-                  <button type="submit"  onclick="alert('informations envoye a admin')">Soumettre son oeuvre</button>
+                  <button type="submit"  >Soumettre son oeuvre</button>
 
               </div>                  
               <div class="container" >
