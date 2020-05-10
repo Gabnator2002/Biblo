@@ -1,4 +1,6 @@
-$(document).ready(function(){
+
+
+  $(document).ready(function(){
     $("#ajouterartist").click(function(){
         
       // window.open("ajouterartist.html","_self")
@@ -119,3 +121,35 @@ function click2(){
   const d = document.getElementById("d8").value
   alert('enregistré note: '+a+" "+b+" "+c+" "+d);
 }
+
+TitreLivre = ["livre de musique","livre de theatre","livre sur les jeux videos","saas"]
+AuteurLivre = ["toto", "pam", "poum","saas"]
+resume = ["livre de toto","ksdjfc kjd lkhK HKJ","lj,xncinc noiflkze nfel","sasa"]
+
+
+
+
+$(document).ready(function(){  
+  if (window.location.pathname == '/index.html'){
+    Long = TitreLivre.length;
+    NbAlea =  Math.floor(Math.random() * Math.floor(Long));
+    document.getElementById("titrealea").innerHTML = "<strong>" + TitreLivre[NbAlea]+ "</strong>" ;
+    document.getElementById("titrealea").innerHTML += " de ";
+    document.getElementById("titrealea").innerHTML += "<strong>" + AuteurLivre[NbAlea]+ "</strong>" ;    
+    document.getElementById("titrealea").innerHTML += "<br>";
+    document.getElementById("titrealea").innerHTML += "<br>";
+    document.getElementById("titrealea").innerHTML += "<i>" + resume[NbAlea]+ "</i>" ;        
+  }
+});
+
+var ladate=new Date()
+var h=ladate.getHours();
+if (h<10) {h = "0" + h}
+var m=ladate.getMinutes();
+if (m<10) {m = "0" + m}
+var s=ladate.getSeconds();
+if (s<10) {s = "0" + s}
+document.write("Heure du jour  : ");
+document.write(h+":"+m+":"+s)
+
+
